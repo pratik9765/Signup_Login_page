@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_Signup Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Wrapper -->
+    
+        <!-- Navbar -->
+        <section class="w-full h-full bg-[#EAB54F] relative">
+            <div class="h-[91px] w-[93%] mx-auto flex flex-row justify-between items-center">
+                <div class="flex flex-row gap-6 items-center max-[640px]:gap-2">
+                    <img src="/Images/venus-logo-removebg-preview.png" class="max-[640px]:-ml-5" alt="">
+                    <div class=" pb-1 -ml-4 max-[640px]:-ml-1 mr-2">
+                        <p class="font-ROBOTO text-[26px] tracking-widest font-bold max-[640px]:text-[22px]">Pixography</p>
+                    </div>
+                    <div class="flex flex-row gap-4 mt-1 items-center max-[640px]:gap-2">
+                        <a href="https://www.instagram.com/pixography2020/" class="w-[30px] max-[640px]:w-[24px] max-[640px]:h-[24px] h-[28px]  rounded-full bg-white flex items-center"><img src="/Images/fb-logo.png" class="pl-[0.62rem] max-[640px]:pl-[0.48rem]" alt=""></a>
+                     
+                        <a href="https://www.instagram.com/pixography2020/" class="w-[30px] h-[28px] max-[640px]:w-[24px] max-[640px]:h-[24px]  rounded-full bg-white flex items-center">
+                            <img src="/Images/insta-logo.png" class="pl-[0.5rem] max-[640px]:pl-[0.3rem]" alt="">
+                        </a>                       
+                     
+                    </div>
+                </div>
+
+                <div class="flex flex-row gap-[4.5rem] ml-4 mr-8">
+                    <a class="text-[20px]  text-white font-semibold font-ROBOTO border-b-2 border-b-slate-200" href="/index.html">Sign Up</a>
+                    <a class="text-[20px] text-gray-200 font-semibold font-ROBOTO" href="/login.html">Log In</a>
+                    <img hamburgerBtn src="/Images/icons8-hamburger-menu-24.png" height="50px" class="lg:hidden" alt="">
+                </div>
+            </div>
+
+              <!-- Hamburger section -->
+              <div class="hidden " hamburger>
+                <div class="flex flex-col w-full h-full gap-10 pb-5 pl-12 bg-transparent">
+                    <a class="text-[16px] mt-5 text-white font-semibold font-ROBOTO" href="/index.html">Sign Up</a>
+                    <a class="text-[16px] text-white font-semibold font-ROBOTO" href="/login.html">Log In</a>
+                </div>
+              </div>
+        </section>
+    <section class="w-full h-full">
+
+        <!-- Signup page -->
+        <div class="w-[40%] flex flex-col gap-6 mx-auto items-center mt-20 bg-[#242A3C]">
+            <div class="flex flex-row mt-7">
+                <button class="bg-[#1CAC8F] px-20 py-2 text-white" signupBtn>Sign Up</button>
+                <button class="bg-[#445355] px-20 py-2 text-white" loginBtn>Logn In</button>
+            </div>
+
+            <p class="text-2xl text-white">Sign Up for Free</p>
+
+            <form class="flex flex-row gap-4" action="">
+                <input type="text" placeholder="First Name" name="" id="" class="py-[0.2rem] text-gray-300 px-3 border-white border-[1px] bg-transparent ">
+                <input type="text" placeholder="Last Name" name="" id=""  class="py-[0.2rem] text-gray-300 px-3 border-white border-[1px] bg-transparent ">
+            </form>
+
+            <form action="">
+                <input type="email" placeholder="Email Address" class="py-[0.2rem] pr-[14.8rem] pl-3 border-white border-[1px] bg-transparent placeholder:mr-[-150px] text-gray-300">
+            </form>
+
+            <form action="">
+                <input type="password" placeholder="Password" class="py-[0.2rem] pr-[14.8rem] pl-3 border-white border-[1px] bg-transparent placeholder:mr-[-150px] text-gray-300">
+            </form>
+
+
+            <button class="bg-[#1CAC8F] px-[9.4rem] py-2 text-white font-semibold text-xl mt-3">GET STARTED</button>
+
+            <div class="flex flex-row items-center gap-2 text-gray-100">
+                <div class="w-40 h-[1px] bg-gray-100"></div> 
+                OR 
+                <div class="w-40 h-[1px] bg-gray-100"></div> 
+            </div>
+
+            <div class="flex flex-row gap-5 mb-8 text-white">
+                <p>Continue with</p>
+                <a href=""><img src="/Images/icons8-google-48.png" alt="" width="25"></a>
+                <a href=""><img src="/Images/icons8-facebook-circled-48.png" alt="" width="25"></a>
+                <a href=""><img src="/Images/icons8-twitter-48.png" alt="" width="25"></a>
+                
+                
+            </div>
+
+        </div>
+
+
+        
+
+    </section>
+    
+
+    <script src="/index.js"></script>
+</body>
+</html>
